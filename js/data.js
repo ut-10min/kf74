@@ -24,8 +24,8 @@ var data = [
         "name": "菊地美結",
         "affiliation": "人文社会系研究科日本文化研究専攻",
         "major": "日本文学（平安時代）",
-        "title": null,
-        "abstract": null
+        "title": "TBA",
+        "abstract": "TBA"
     },
     {
         "name": "久保京介",
@@ -80,8 +80,8 @@ var data = [
         "name": "成田佳奈香",
         "affiliation": "理学系研究科天文学専攻",
         "major": "天文学",
-        "title": null,
-        "abstract": null
+        "title": "TBA",
+        "abstract": "TBA"
     },
     {
         "name": "幅崎美涼",
@@ -101,7 +101,7 @@ var data = [
         "name": "宮園健太郎",
         "affiliation": "農学生命科学研究科水圏生物科学専攻",
         "major": "海洋生物、海洋物理、環境学",
-        "title": null,
-        "abstract": null
+        "title": "TBA",
+        "abstract": "TBA"
     }
 ]
