@@ -103,53 +103,5 @@ var data = [
         "major": "海洋生物、海洋物理、環境学",
         "title": null,
         "abstract": null
-    }, {
-        "name": "氏名",
-        "affiliation": "所属(〇〇研究科××専攻 等)",
-        "major": "専門",
-        "title": null,
-        "abstract": null
-    },
-    {
-        "name": "塚本萌太",
-        "affiliation": "理学系研究科物理学専攻",
-        "major": "固体物理",
-        "title": null,
-        "abstract": null
-    },
-    {
-        "name": "梅村 悠介",
-        "affiliation": "総合文化研究科広域科学専攻",
-        "major": "分子生物学",
-        "title": null,
-        "abstract": null
-    },
-    {
-        "name": "上杉 佑人",
-        "affiliation": "理学系研究科物理学専攻",
-        "major": "統計物理学（動物の集団運動）",
-        "title": null,
-        "abstract": null
-    },
-    {
-        "name": "孔　詩",
-        "affiliation": "人文社会系研究科アジア文化研究専攻",
-        "major": "中国金元時代の道教と仏教",
-        "title": null,
-        "abstract": null
-    },
-    {
-        "name": "高原智史",
-        "affiliation": "総合文化研究科比較文学比較文化コース",
-        "major": "日本思想史",
-        "title": null,
-        "abstract": null
-    },
-    {
-        "name": "成田佳奈香",
-        "affiliation": "理学系研究科天文学専攻",
-        "major": "天文学",
-        "title": null,
-        "abstract": null
     }
 ]
