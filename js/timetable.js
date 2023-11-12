@@ -39,12 +39,12 @@ function construstTimeTable(timeTable, talksData) {
       }
       */
       // For speakers with multiple talk titles
-      else if (name == "田口1") {
+      else if (name == "田口2") {
         return {
           time: time,
-          name: talk.name,
-          title: "",
-          major: "",
+          name: "田口 富隆",
+          title: "アインシュタインの最後の宿題が遺したもの",
+          major: "工学系研究科",
         };
       }
       else {
