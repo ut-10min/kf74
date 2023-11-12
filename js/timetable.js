@@ -39,14 +39,13 @@ function construstTimeTable(timeTable, talksData) {
       }
       */
       // For speakers with multiple talk titles
-      else if (name == "田口1")
-      {
+      else if (name == "田口1") {
         return {
-          time: time, 
-          name: talk.name
-          title: talk.title + "：<br />" + talk.name,
-          major: ""
-      };
+          time: time,
+          name: talk.name,
+          title: "",
+          major: "",
+        };
       }
       else {
         return { time: time, name: talk.name, title: talk.title, major: talk.affiliation };
