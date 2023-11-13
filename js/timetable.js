@@ -27,7 +27,7 @@ function construstTimeTable(timeTable, talksData) {
                 return { time: time, name: "", title: name, major: "" };
             }
             // 小林さんの実験
-            else if (name == "実験"
+            else if (name == "小林実験"
             ) {
                 return {
                     time: time,
