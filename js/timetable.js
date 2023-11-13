@@ -18,21 +18,25 @@ function construstTimeTable(timeTable, talksData) {
             ) {
                 return { time: name, name: "", title: "", major: "" };
             }
+            // 改行
             else if (name == "改行") {
                 return { time: "\xa0", name: "\xa0", title: "", major: "" };
             }
-            else if (
-                (name.indexOf("休憩・座談会") == 0) ||
-                (name == "実験")
-            ) {
+            // 休憩・座談会
+            else if (name.indexOf("休憩・座談会") == 0) {
                 return { time: time, name: "", title: name, major: "" };
             }
-            /*
-            else if (name == "第1部講演の録画を放映予定") {
-              return { time: time, name: "", title: name, major: ""};
+            // 小林さんの実験
+            else if (name == "実験"
+            ) {
+                return {
+                    time: time,
+                    name: "小林 大輝",
+                    title: name,
+                    major: ""
+                };
             }
-            */
-            // To recognize speakers with multiple talk titles
+            // 田口さんの講演2
             else if (name == "田口2") {
                 return {
                     time: time,
@@ -41,6 +45,12 @@ function construstTimeTable(timeTable, talksData) {
                     major: "工学系研究科",
                 };
             }
+            /*
+            else if (name == "第1部講演の録画を放映予定") {
+              return { time: time, name: "", title: name, major: ""};
+            }
+            */
+            // 講演
             else {
                 return { time: time, name: talk.name, title: talk.title, major: talk.affiliation };
             }
