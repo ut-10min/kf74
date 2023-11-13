@@ -32,8 +32,8 @@ function construstTimeTable(timeTable, talksData) {
                 return {
                     time: time,
                     name: "小林 大輝",
-                    title: name,
-                    major: ""
+                    title: "ワークショップ：高圧氷の結晶成長の観察",
+                    major: "理学系研究科"
                 };
             }
             // 田口さんの講演2
